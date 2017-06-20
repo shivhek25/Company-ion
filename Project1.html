@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    .card {
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card_admin{
+    margin-top: 20px;
+  }
+  .card_employee{
+    margin-top: 80%;
+  }
+  .card_employee1{
+    margin-top: 70%;
+  }
+  .text1{
+    text-align: center;
+    padding-top: 2%;
+    color: white;
+  }
+    </style>
+  </head>
+  <body style="background-image:url(img/company.jpg);background-repeat:no-repeat;background-size:cover">
+    <div class="container">
+      <div class="col-md-4">
+        <div class="card card_employee">
+          <img src="img/applicants.png" alt="Applicants' Section" style="width:100%">
+          <div class="text1">
+            <h4><b>New Applicant</b></h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card card_admin">
+          <img src="img/admin.png" alt="Admins' Section" style="width:95%">
+          <div class="text1">
+            <h4><b>Admin</b></h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card card_employee1">
+          <img src="img/employee.png" alt="Employees' Section" style="width:90%">
+          <div class="text1">
+            <h4><b>Employees</b></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
