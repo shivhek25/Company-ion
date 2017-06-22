@@ -12,58 +12,15 @@
       background-repeat: no-repeat;
       background-size: cover;
     }
-    .sidenav{
-      height:100%;
-      width:0;
-      position: fixed;
-      z-index: 1;
-      top:0;
-      left:0;
-      background-color: #111;
-      overflow-x:hidden;
-      transition: 0.5s;
-      padding-top: 60px;
-    }
-    .sidenav a{
-      padding: 8px 8px 8px 32px;
-      text-decoration: none;
-      font-size: 25px;
-      color:#818181;
-      display: block;
-      transition: 0.3s;
-    }
-    .sidenav a:hover,.offcanvas a:focus{
-      color:#f1f1f1;
-    }
-    .sidenav .closebtn{
-      position: absolute;
-      top: 0;
-      right: 25px;
-      font-size: 36px;
-      margin-left: 50px;
-    }
-    @media screen and (max-height:450px){
-      .sidenav {padding-top:50px;}
-      .sidenav a{font-size:18px;}
-    }
     </style>
   </head>
-  <body style="font-family: Lato,sans-serif;color:black">
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="#">Vacancies</a>
-      <a href="#">Application Form</a>
-      <a href="#">Applicants' Profile</a>
+  <body>
+    <div class="col-md-3" style="background-image:url(img/peach.jpg);height:660px;padding-left:2%">
+    <span style="font-size:20px"><br/><a href="#" style="color:red">Vacancies</a><br/><br/><a href="#" style="color:red">Application Form</a><br/><br/><a href="#" style="color:red">Applicants' Profile</a><br/></span>
     </div>
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;Open</span>
-    <script>
-    function openNav(){
-      document.getElementById("mySidenav").style.width="250px";
-    }
-    function closeNav(){
-      document.getElementById("mySidenav").style.width="0px";
-    }
-    </script>
+    <div class="col-md-9 text-center" style="font-size:20px;margin-top:100px">
+      <img src="img/ion.png"/><br/>
+      WELCOME TO COMPANY-ION ! FIND YOUR OPPORTUNITY <a href="#">HERE</a> !
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
